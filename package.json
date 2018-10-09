@@ -2,19 +2,13 @@
   "name": "todo-redux",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-redux": "^5.0.7",
-    "react-scripts": "2.0.4",
-    "redux": "^4.0.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:converage": "nyc npm test",
+    "lint": "eslint ./src/**/*.js",
+    "test:converage": "nyc npm test -- --watchall",
     "coveralls": "npm run test:converage && nyc report --reporter=text-lcov | coveralls"
   },
   "nyc": {
@@ -39,5 +33,12 @@
   "devDependencies": {
     "coveralls": "^3.0.2",
     "nyc": "^13.0.1"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "2.0.4",
+    "redux": "^4.0.0"
   }
 }
