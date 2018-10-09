@@ -5,21 +5,39 @@
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-redux": "^5.0.7",
+    "react-scripts": "2.0.4",
+    "redux": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test:converage": "nyc npm test",
+    "coveralls": "npm run test:converage && nyc report --reporter=text-lcov | coveralls"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "nyc": {
+    "functions": 80,
+    "lines": 80,
+    "check-converage": true,
+    "reporter": [
+      "text",
+      "html",
+      "lcov"
+    ],
+    "exclude": [
+      "tests/**"
+    ]
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "nyc": "^13.0.1"
+  }
 }
