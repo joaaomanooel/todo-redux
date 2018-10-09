@@ -1,5 +1,4 @@
-# To Do
-## Web application
+# To Do | Web Application
 [![Build Status](https://travis-ci.com/joaaomanooel/todo-redux.svg?branch=master)](https://travis-ci.org/joaaomanooel/todo-redux)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
