@@ -7,7 +7,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "lint": "eslint ./src/**/*.js",
-    "test:converage": "nyc npm test -- --watchall",
+    "test:converage": "npm test -- --coverage",
     "coveralls": "npm run test:converage && nyc report --reporter=text-lcov | coveralls"
   },
   "nyc": {

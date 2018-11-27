@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import store from "./store";
 
 import TodoList from './todo/TodoList';
-import Counter from './todo/counter';
+import Counter from './todo/Counter';
 
 class App extends Component {
   render() {
