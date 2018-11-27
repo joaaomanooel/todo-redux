@@ -1,7 +1,7 @@
-function addTodo(text) {
+function addTodo(payload) {
   return {
     type: 'ADD_TODO',
-    text,
+    payload,
   }
 }
 
