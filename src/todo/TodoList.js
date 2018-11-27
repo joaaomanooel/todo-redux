@@ -5,11 +5,6 @@ import { connect } from 'react-redux';
 import * as todoActions from '../actions/todos';
 
 class TodoList extends Component {
-  constructor(props) {
-    super(props);
-
-    console.log(props);
-  }
   state = {
     newTodoText: '',
   }

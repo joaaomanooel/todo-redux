@@ -3,7 +3,7 @@ export default function todos(state = [], action) {
     case 'ADD_TODO':
       return [...state, {
         id: Math.random(),
-        text: action.text,
+        text: action.payload,
       }]
     default:
       return state
