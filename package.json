@@ -8,7 +8,7 @@
     "test": "node scripts/test.js",
     "lint": "eslint ./src/**/*.js",
     "test:converage": "npm test -- --coverage",
-    "coveralls": "npm run test:converage && nyc report --reporter=text-lcov | coveralls"
+    "coveralls": "npm run test:converage | coveralls"
   },
   "nyc": {
     "functions": 80,
