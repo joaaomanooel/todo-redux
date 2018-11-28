@@ -7,7 +7,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --watchAll",
     "test:coverage": "node scripts/test.js --coverage",
-    "lint": "eslint ./src/**/**/**/*.js"
+    "lint": "eslint ./src/**/**/**/*.js ./test/**/**/**/*.js"
   },
   "nyc": {
     "functions": 80,

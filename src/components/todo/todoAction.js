@@ -1,6 +1,8 @@
+import types from './actionsTypes';
+
 function addTodo(payload) {
   return {
-    type: 'ADD_TODO',
+    type: types.ADD_TODO,
     payload,
   };
 }

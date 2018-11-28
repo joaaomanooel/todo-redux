@@ -18,20 +18,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "dispatch": [Function],
-      "todos": Array [
-        Object {
-          "id": 0,
-          "text": "Todo 1",
-        },
-        Object {
-          "id": 1,
-          "text": "Todo 2",
-        },
-        Object {
-          "id": 2,
-          "text": "Todo 3",
-        },
-      ],
+      "todos": undefined,
     },
     "ref": null,
     "rendered": null,
@@ -44,20 +31,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "dispatch": [Function],
-        "todos": Array [
-          Object {
-            "id": 0,
-            "text": "Todo 1",
-          },
-          Object {
-            "id": 1,
-            "text": "Todo 2",
-          },
-          Object {
-            "id": 2,
-            "text": "Todo 3",
-          },
-        ],
+        "todos": undefined,
       },
       "ref": null,
       "rendered": null,
@@ -125,20 +99,7 @@ ShallowWrapper {
         2,
         3,
       ],
-      "todos": Array [
-        Object {
-          "id": 0,
-          "text": "Todo 1",
-        },
-        Object {
-          "id": 1,
-          "text": "Todo 2",
-        },
-        Object {
-          "id": 2,
-          "text": "Todo 3",
-        },
-      ],
+      "todos": undefined,
     },
     "ref": null,
     "rendered": null,
@@ -156,20 +117,7 @@ ShallowWrapper {
           2,
           3,
         ],
-        "todos": Array [
-          Object {
-            "id": 0,
-            "text": "Todo 1",
-          },
-          Object {
-            "id": 1,
-            "text": "Todo 2",
-          },
-          Object {
-            "id": 2,
-            "text": "Todo 3",
-          },
-        ],
+        "todos": undefined,
       },
       "ref": null,
       "rendered": null,
