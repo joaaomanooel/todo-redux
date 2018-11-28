@@ -4,8 +4,8 @@ export default function todos(state = [], action) {
       return [...state, {
         id: Math.random(),
         text: action.payload,
-      }]
+      }];
     default:
-      return state
+      return state;
   }
 }

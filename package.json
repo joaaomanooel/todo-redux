@@ -5,9 +5,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js",
-    "test:coverage": "npm test -- --coverage",
-    "lint": "eslint ./src/**/*.js"
+    "test": "node scripts/test.js --watchAll",
+    "test:coverage": "node scripts/test.js --coverage",
+    "lint": "eslint ./src/**/**/**/*.js"
   },
   "nyc": {
     "functions": 80,
@@ -32,6 +32,7 @@
     "coveralls": "^3.0.2",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "husky": "^1.2.0",
     "nyc": "^13.0.1",
     "react-test-renderer": "^16.6.3",
@@ -56,9 +57,9 @@
     "eslint-config-react-app": "^3.0.3",
     "eslint-loader": "2.1.1",
     "eslint-plugin-flowtype": "2.50.1",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-react": "7.11.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
     "file-loader": "2.0.0",
     "fs-extra": "7.0.0",
     "html-webpack-plugin": "4.0.0-alpha.2",
