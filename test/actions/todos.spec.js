@@ -1,4 +1,4 @@
-import { addTodo } from '../../src/components/todo/todoAction';
+import addTodo from '../../src/components/todo/todoAction';
 import types from '../../src/components/todo/actionsTypes';
 
 describe('Todo Actions', () => {

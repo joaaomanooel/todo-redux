@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as todoActions from './todoAction';
+import addTodo from './todoAction';
 
 class TodoList extends Component {
   state = {
@@ -35,5 +35,5 @@ class TodoList extends Component {
 const mapStateToProps = state => ({
   todos: state.todo,
 });
-const mapDispatchToProps = dispatch => bindActionCreators(todoActions, dispatch);
+const mapDispatchToProps = dispatch => bindActionCreators({ addTodo }, dispatch);
 export default connect(mapStateToProps, mapDispatchToProps)(TodoList);
