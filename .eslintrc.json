@@ -1,15 +1,34 @@
 {
-  "extends": "react-app",
+  "extends": [
+    "airbnb-base",
+    "react-app"
+  ],
   "plugins": [
     "react",
-    "jsx-a11y",
-    "import"
+    "import",
+    "jsx-a11y"
   ],
+  "rules": {
+    "import/prefer-default-export": 1,
+    "no-underscore-dangle": 0,
+    "import/no-named-as-default": 1,
+    "import/no-named-as-default-member": 1,
+    "class-methods-use-this": 1,
+    "react/jsx-filename-extension": 0,
+    "react/prefer-stateless-function": 0,
+    "no-unused-expressions": 1,
+    "react/no-unused-state": 0,
+    "no-alert": 0,
+    "react/destructuring-assignment": 0,
+    "react/button-has-type": 0,
+    "react/prop-types": 0,
+    "react/no-access-state-in-setstate": 1
+  },
   "globals": {
+    "document": true,
+    "alert": true,
+    "localStorage": true,
     "fetch": false,
     "context": true
-  },
-  "rules": {
-    "no-unused-expressions": 1
   }
 }

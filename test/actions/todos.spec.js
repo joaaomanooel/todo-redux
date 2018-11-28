@@ -1,9 +1,10 @@
-import { addTodo } from '../../src/actions/todos';
+import addTodo from '../../src/components/todo/todoAction';
+import types from '../../src/components/todo/actionsTypes';
 
 describe('Todo Actions', () => {
   it('Should must to return the expected value', () => {
     const expectedResult = {
-      type: 'ADD_TODO',
+      type: types.ADD_TODO,
       payload: 'test',
     };
 

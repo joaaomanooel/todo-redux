@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-
-import * as todoActions from '../actions/todos';
+import { bindActionCreators } from 'redux';
+import addTodo from './todoAction';
 
 class TodoList extends Component {
   state = {
@@ -11,7 +10,7 @@ class TodoList extends Component {
 
   addNewTodo = () => {
     this.props.addTodo(this.state.newTodoText);
-    this.setState({ newTodoText: '' })
+    this.setState({ newTodoText: '' });
   };
 
   render() {
@@ -22,13 +21,11 @@ class TodoList extends Component {
             <li key={todo.id} >{todo.text}</li>
           ))}
         </ul>
-
         <input
           type="text"
           value={this.state.newTodoText}
-          onChange={(e) => this.setState({ newTodoText: e.target.value })}
+          onChange={e => this.setState({ newTodoText: e.target.value })}
         />
-
         <button onClick={this.addNewTodo}>Novo todo</button>
       </div>
     );
@@ -36,7 +33,7 @@ class TodoList extends Component {
 }
 
 const mapStateToProps = state => ({
-  todos: state.todos,
-})
-const mapDispatchToProps = dispatch => bindActionCreators(todoActions, dispatch);
+  todos: state.todo,
+});
+const mapDispatchToProps = dispatch => bindActionCreators({ addTodo }, dispatch);
 export default connect(mapStateToProps, mapDispatchToProps)(TodoList);
