@@ -9,6 +9,6 @@ before_script:
   - npm run build
 
 script:
-  - npm run test:coverage
+  - npm run test:coverage -- -u
 
 after_script: "cat ./coverage/lcov.info | coveralls"
