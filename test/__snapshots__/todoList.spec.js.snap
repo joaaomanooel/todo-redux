@@ -4,7 +4,7 @@ exports[`Testing App component Should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TodoList
-    payload={[Function]}
+    addTodo={[Function]}
     todos={
       Array [
         Object {
@@ -21,7 +21,6 @@ ShallowWrapper {
         },
       ]
     }
-    type="ADD_TODO"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
