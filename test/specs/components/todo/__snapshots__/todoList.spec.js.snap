@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing App component Should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoList
+    addTodo={[Function]}
+    todos={
+      Array [
+        Object {
+          "id": 0,
+          "text": "Todo 1",
+        },
+        Object {
+          "id": 1,
+          "text": "Todo 2",
+        },
+        Object {
+          "id": 2,
+          "text": "Todo 3",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ul>
+          <li>
+            Todo 1
+          </li>
+          <li>
+            Todo 2
+          </li>
+          <li>
+            Todo 3
+          </li>
+        </ul>,
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />,
+        <button
+          onClick={[Function]}
+        >
+          Novo todo
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              Todo 1
+            </li>,
+            <li>
+              Todo 2
+            </li>,
+            <li>
+              Todo 3
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Todo 1",
+            },
+            "ref": null,
+            "rendered": "Todo 1",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Todo 2",
+            },
+            "ref": null,
+            "rendered": "Todo 2",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Todo 3",
+            },
+            "ref": null,
+            "rendered": "Todo 3",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "onChange": [Function],
+          "type": "text",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Novo todo",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Novo todo",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ul>
+            <li>
+              Todo 1
+            </li>
+            <li>
+              Todo 2
+            </li>
+            <li>
+              Todo 3
+            </li>
+          </ul>,
+          <input
+            onChange={[Function]}
+            type="text"
+            value=""
+          />,
+          <button
+            onClick={[Function]}
+          >
+            Novo todo
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Todo 1
+              </li>,
+              <li>
+                Todo 2
+              </li>,
+              <li>
+                Todo 3
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Todo 1",
+              },
+              "ref": null,
+              "rendered": "Todo 1",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Todo 2",
+              },
+              "ref": null,
+              "rendered": "Todo 2",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Todo 3",
+              },
+              "ref": null,
+              "rendered": "Todo 3",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "onChange": [Function],
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Novo todo",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Novo todo",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;

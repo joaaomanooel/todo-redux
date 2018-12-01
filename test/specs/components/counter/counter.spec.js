@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import React from 'react';
 import configureStore from 'redux-mock-store';
-import Counter from '../src/components/counter/counter';
+import Counter from '../../../../src/components/counter/counter';
 
 const mockStore = configureStore();
 const initialState = {

@@ -1,4 +1,5 @@
 module.exports = {
+  silent: true,
   verbose: true,
   coverageThreshold: {
     global: {
@@ -13,7 +14,7 @@ module.exports = {
   resolver: 'jest-pnp-resolver',
   setupFiles: [
     'react-app-polyfill/jsdom',
-    '<rootDir>/test/config/setup.js',
+    '<rootDir>/test/helpers/setup.js',
   ],
   testMatch: [
     '<rootDir>/test/**/?(*.)(spec|test).{js,jsx}',

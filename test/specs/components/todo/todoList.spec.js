@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import React from 'react';
 import configureStore from 'redux-mock-store';
-import TodoList from '../src/components/todo/todoList';
+import TodoList from '../../../../src/components/todo/todoList';
 
 const mockStore = configureStore();
 const initialState = {
