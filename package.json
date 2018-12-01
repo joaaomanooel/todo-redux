@@ -5,8 +5,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --watchAll",
-    "test:coverage": "node scripts/test.js --coverage",
+    "test": "jest",
+    "test:tdd": "npm test -- --watchAll",
+    "test:coverage": "npm test -- --coverage",
     "lint": "eslint ./src/**/**/**/*.js ./test/**/**/**/*.js"
   },
   "browserslist": [
