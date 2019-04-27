@@ -1,9 +1,9 @@
 # To Do | Web Application
-[![Build Status](https://travis-ci.com/joaaomanooel/todo-redux.svg?branch=master)](https://travis-ci.org/joaaomanooel/todo-redux) [![Coverage Status](https://coveralls.io/repos/github/joaaomanooel/todo-redux/badge.svg?branch=master)](https://coveralls.io/github/joaaomanooel/todo-redux?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github//joaaomanooel/todo-redux/badge.svg)](https://snyk.io/test/github//joaaomanooel/todo-redux)
+[![Build Status](https://travis-ci.com/joaaomanooel/todo-redux.svg?branch=master)](https://travis-ci.org/joaaomanooel/todo-redux)  [![Coverage Status](https://coveralls.io/repos/github/joaaomanooel/todo-redux/badge.svg?branch=master)](https://coveralls.io/github/joaaomanooel/todo-redux?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github//joaaomanooel/todo-redux/badge.svg)](https://snyk.io/test/github//joaaomanooel/todo-redux)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
